@@ -1,0 +1,31 @@
+---
+
+---
+
+@import "minima";
+
+@font-face {
+    font-family: "Siddhanta";
+    src: local("Siddhanta"),
+        url("/amitodbhave/assets/fonts/Siddhanta/siddhanta.woff2") format("woff2"),
+        url("/amitodbhave/assets/fonts/Siddhanta/siddhanta.woff") format("woff"),
+        url("/amitodbhave/assets/fonts/Siddhanta/siddhanta.ttf") format("truetype");
+    unicode-range: U+0900-097F, U+A8E0-A8FF, U+1CD0-1CFF;
+    font-display: swap;
+    size-adjust: 120%;
+}
+
+@font-face {
+    font-family: "Tibetan Machine Uni";
+    src: local("Tibetan Machine Uni"),
+        url("/amitodbhave/assets/fonts/TibetanMachineUnicodeFont/TibMachUni-1.901b.woff2") format("woff2"),
+        url("/amitodbhave/assets/fonts/TibetanMachineUnicodeFont/TibMachUni-1.901b.woff") format("woff"),
+        url("/amitodbhave/assets/fonts/TibetanMachineUnicodeFont/TibMachUni-1.901b.ttf") format("truetype");
+    unicode-range: U+0F00-0FFF;
+    font-display: swap;
+    size-adjust: 140%;
+}
+
+body {
+    font-family: "Siddhanta", "Tibetan Machine Uni", $base-font-family;
+}
